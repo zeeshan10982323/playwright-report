@@ -1,0 +1,22 @@
+{
+  "name": "digitaltolkapp-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright E2E suite for digitaltolkapp",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:regression": "playwright test --grep @regression",
+    "test:notify": "MM_NOTIFY=1 playwright test",
+    "mm:dm:test": "node scripts/mattermost-dm-test.js",
+    "test:google": "BASE_URL=https://www.google.com playwright test tests/google-cricket.spec.ts --project=chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.0.0",
+    "dotenv": "^17.2.0",
+    "typescript": "^5.9.0"
+  }
+}

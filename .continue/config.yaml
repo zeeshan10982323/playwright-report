@@ -1,0 +1,22 @@
+name: Playwright Local Setup
+version: 0.0.1
+schema: v1
+
+models:
+  - name: deepseek-coder-local
+    provider: ollama
+    model: deepseek-coder
+    apiBase: http://localhost:11434
+
+context:
+  - provider: code
+  - provider: folder
+  - provider: diff
+  - provider: terminal
+
+mcpServers:
+  - name: playwright
+    command: npx
+    args:
+      - -y
+      - "@playwright/mcp@latest"

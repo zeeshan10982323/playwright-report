@@ -1,0 +1,62 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - main [ref=e6]:
+      - link "Sweden Logo" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img "Sweden Logo" [ref=e8]
+      - link "login Sign up" [ref=e9] [cursor=pointer]:
+        - /url: /auth/register-type
+        - generic [ref=e10]: login
+        - generic [ref=e11]: Sign up
+      - generic [ref=e12] [cursor=pointer]:
+        - img [ref=e13]
+        - generic [ref=e14]: English
+        - generic [ref=e15]: keyboard_arrow_down
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]: Login
+          - generic [ref=e25] [cursor=pointer]:
+            - generic "Sweden" [ref=e26]:
+              - generic [ref=e27]: Sweden
+            - img "loading" [ref=e28]:
+              - img [ref=e33]
+          - generic [ref=e41]:
+            - generic [ref=e42]:
+              - generic: alternate_email
+            - generic [ref=e43]:
+              - textbox "Username" [active] [ref=e44]
+              - generic:
+                - generic: Username
+            - img "loading" [ref=e46]
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - generic: lock
+            - generic [ref=e55]:
+              - textbox "Password" [ref=e56]
+              - generic:
+                - generic: Password
+            - generic [ref=e57]:
+              - img "loading" [ref=e58]
+              - generic: visibility
+          - link "Forgot Password?" [ref=e60] [cursor=pointer]:
+            - /url: /auth/forgot-password
+            - generic [ref=e61]: Forgot Password?
+          - button "Log in" [ref=e62] [cursor=pointer]:
+            - generic [ref=e63]: Log in
+          - link "arrow_forward_ios Book as a guest" [ref=e64] [cursor=pointer]:
+            - /url: /auth/book-as-guest
+            - button "arrow_forward_ios Book as a guest" [ref=e65]:
+              - generic [ref=e66]:
+                - generic [ref=e68]: arrow_forward_ios
+                - text: Book as a guest
+          - link "arrow_forward_ios Passwordless login" [ref=e69] [cursor=pointer]:
+            - /url: /auth/passwordless-login
+            - button "arrow_forward_ios Passwordless login" [ref=e70]:
+              - generic [ref=e71]:
+                - generic [ref=e73]: arrow_forward_ios
+                - text: Passwordless login
+        - generic [ref=e74] [cursor=pointer]:
+          - text: Explore other options
+          - generic [ref=e75]: keyboard_arrow_down
+    - generic [ref=e79]: experiment
+  - img [ref=e87]

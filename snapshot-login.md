@@ -1,0 +1,141 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - complementary [ref=e6]:
+        - generic [ref=e7]:
+          - img [ref=e8] [cursor=pointer]
+          - img "DigitalTolk" [ref=e11]
+          - generic [ref=e12]:
+            - menu [ref=e13]:
+              - menuitem "add_circle Create Booking" [ref=e14]:
+                - generic [ref=e15] [cursor=pointer]: add_circle
+                - generic [ref=e16] [cursor=pointer]: Create Booking
+              - menuitem "home Dashboard" [ref=e17]:
+                - generic [ref=e18] [cursor=pointer]: home
+                - generic [ref=e20] [cursor=pointer]: Dashboard
+              - menuitem "event My Bookings" [ref=e21]:
+                - generic [ref=e22] [cursor=pointer]: event
+                - generic [ref=e23] [cursor=pointer]: My Bookings
+              - menuitem "bar_chart Statistics" [ref=e24]:
+                - generic [ref=e25] [cursor=pointer]: bar_chart
+                - generic [ref=e26] [cursor=pointer]: Statistics
+            - menu [ref=e30]:
+              - menuitem "Settings" [ref=e31]:
+                - img [ref=e32] [cursor=pointer]
+                - text: Settings
+              - menuitem "Z ZASTESTCUSTOMER" [ref=e35]:
+                - generic [ref=e36] [cursor=pointer]:
+                  - generic [ref=e38]: Z
+                  - generic [ref=e39]: ZASTESTCUSTOMER
+      - main [ref=e40]:
+        - generic [ref=e42]:
+          - generic [ref=e44]:
+            - generic [ref=e46]: Monday, March 9, 2026
+            - generic [ref=e47] [cursor=pointer]: Customize dashboard
+          - generic [ref=e49]:
+            - generic [ref=e51]:
+              - link "people Book Interpreter" [ref=e53] [cursor=pointer]:
+                - /url: /bookings/create#interpretation
+                - generic [ref=e55]: people
+                - generic [ref=e56]: Book Interpreter
+              - link "directions_run On-demand Booking" [ref=e58] [cursor=pointer]:
+                - /url: /bookings/create#emergency-booking
+                - generic [ref=e60]: directions_run
+                - generic [ref=e61]: On-demand Booking
+              - link "translate Translation" [ref=e63] [cursor=pointer]:
+                - /url: /bookings/create#translation
+                - generic [ref=e65]: translate
+                - generic [ref=e66]: Translation
+              - link "forum Convey Service" [ref=e68] [cursor=pointer]:
+                - /url: /bookings/create#convey-service
+                - generic [ref=e71]: forum
+                - generic [ref=e72]: Convey Service
+              - link "book Phrases" [ref=e74] [cursor=pointer]:
+                - /url: /bookings/create#phrases
+                - generic [ref=e77]: book
+                - generic [ref=e78]: Phrases
+            - generic [ref=e79]:
+              - generic [ref=e80]:
+                - generic [ref=e81]: Upcoming Bookings
+                - button "calendar_today Go to calendar view" [ref=e82] [cursor=pointer]:
+                  - generic [ref=e84]: calendar_today
+                  - generic [ref=e86]: Go to calendar view
+              - generic [ref=e87]:
+                - generic [ref=e89]: No upcoming bookings
+                - button "chevron_forward All Upcoming Bookings" [ref=e90] [cursor=pointer]:
+                  - generic [ref=e91]:
+                    - generic [ref=e93]: chevron_forward
+                    - text: All Upcoming Bookings
+            - generic [ref=e94]:
+              - generic [ref=e95]: Pending Bookings
+              - generic [ref=e96]:
+                - generic [ref=e98]: No pending bookings
+                - button "chevron_forward All Bookings" [ref=e99] [cursor=pointer]:
+                  - generic [ref=e100]:
+                    - generic [ref=e102]: chevron_forward
+                    - text: All Bookings
+            - generic [ref=e104]:
+              - generic [ref=e107]:
+                - generic [ref=e108]: DigitalTolk Academy
+                - img "graduation-cap" [ref=e109]
+                - generic [ref=e110]: DigitalTolk Academy is your go-to hub for practical guides and tutorials. Learn how to book interpreters, manage recurring or missed visits. Step-by-step instructions make it simple to handle everything. Designed for efficiency, Academy helps you get the most out of DigitalTolk.
+                - button "arrow_forward Go to Academy" [ref=e112] [cursor=pointer]:
+                  - generic [ref=e113]:
+                    - generic [ref=e115]: arrow_forward
+                    - text: Go to Academy
+              - img "DigitalTolk Academy Featured" [ref=e119]
+            - generic [ref=e120]:
+              - generic [ref=e121]: Pending Feedback
+              - generic [ref=e123]: No pending feedbacks
+            - generic [ref=e124]:
+              - generic [ref=e125]: Questions and answers
+              - generic [ref=e126]:
+                - generic [ref=e127] [cursor=pointer]:
+                  - generic [ref=e128]: How do I log in?
+                  - generic [ref=e129]: expand_more
+                - generic [ref=e130] [cursor=pointer]:
+                  - generic [ref=e131]: How do I book an interpreter?
+                  - generic [ref=e132]: expand_more
+                - generic [ref=e133] [cursor=pointer]:
+                  - generic [ref=e134]: What do I do if I need an interpreter immediately?
+                  - generic [ref=e135]: expand_more
+                - generic [ref=e136] [cursor=pointer]:
+                  - generic [ref=e137]: What types of bookings can I choose from?
+                  - generic [ref=e138]: expand_more
+                - generic [ref=e139] [cursor=pointer]:
+                  - generic [ref=e140]: How do I get in touch with the interpreter?
+                  - generic [ref=e141]: expand_more
+            - generic [ref=e142]:
+              - generic [ref=e143]: Contact us
+              - generic [ref=e144]:
+                - generic [ref=e147]:
+                  - separator [ref=e148]
+                  - button "trending_flat Call Customer Service" [ref=e151] [cursor=pointer]:
+                    - generic [ref=e153]: trending_flat
+                    - generic [ref=e154]: Call Customer Service
+                  - separator [ref=e155]
+                  - button "chevron_right Send an Email" [ref=e158] [cursor=pointer]:
+                    - generic [ref=e160]: chevron_right
+                    - generic [ref=e161]: Send an Email
+                  - separator [ref=e162]
+                - generic [ref=e167]:
+                  - generic [ref=e168]: We are here to help you!
+                  - generic [ref=e169]: headphones
+                  - generic [ref=e170]:
+                    - generic [ref=e171]: phone
+                    - link "010-199 45 00" [ref=e172] [cursor=pointer]:
+                      - /url: tel:010-199 45 00
+                      - generic [ref=e173]: 010-199 45 00
+                  - generic [ref=e174]: Our business hours
+                  - generic [ref=e175]: "Office hours: Monday-Friday, 07:00-18:00."
+                  - generic [ref=e176]: We are available 24/7, every day of the week.
+          - button "edit Customize dashboard" [ref=e177] [cursor=pointer]:
+            - generic [ref=e179]: edit
+            - generic [ref=e180]: Customize dashboard
+    - generic [ref=e182]:
+      - generic [ref=e184]: experiment
+      - generic [ref=e185]:
+        - generic [ref=e186]: This is an early-access version of our app. If you want to go back to the original app,
+        - button "Go to original app" [ref=e188] [cursor=pointer]:
+          - generic [ref=e189]: Go to original app
+  - img [ref=e197]

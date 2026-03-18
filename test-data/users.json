@@ -1,0 +1,6 @@
+{
+  "defaultUser": {
+    "role": "standard",
+    "source": "env"
+  }
+}

@@ -1,0 +1,54 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - complementary [ref=e6]:
+      - generic [ref=e7]:
+        - img [ref=e8] [cursor=pointer]
+        - img "DigitalTolk" [ref=e11]
+        - generic [ref=e12]:
+          - menu [ref=e13]:
+            - menuitem "add_circle Create Booking" [ref=e14]:
+              - generic [ref=e289] [cursor=pointer]: add_circle
+              - generic [ref=e290] [cursor=pointer]: Create Booking
+            - menuitem "home Dashboard" [ref=e17]:
+              - generic [ref=e291] [cursor=pointer]: home
+              - generic [ref=e292] [cursor=pointer]: Dashboard
+            - menuitem "event My Bookings" [ref=e21]:
+              - generic [ref=e293] [cursor=pointer]: event
+              - generic [ref=e295] [cursor=pointer]: My Bookings
+            - menuitem "bar_chart Statistics" [ref=e24]:
+              - generic [ref=e296] [cursor=pointer]: bar_chart
+              - generic [ref=e297] [cursor=pointer]: Statistics
+          - menu [ref=e301]:
+            - menuitem "Settings" [ref=e302]:
+              - img [ref=e303] [cursor=pointer]
+              - text: Settings
+            - menuitem "Z ZASTESTCUSTOMER" [ref=e306]:
+              - generic [ref=e307] [cursor=pointer]:
+                - generic [ref=e309]: Z
+                - generic [ref=e310]: ZASTESTCUSTOMER
+    - main [ref=e40]:
+      - generic [ref=e318]:
+        - generic [ref=e323] [cursor=pointer]: keyboard_arrow_down
+        - generic [ref=e328]:
+          - generic [ref=e330]:
+            - generic [ref=e332]:
+              - img "loading" [ref=e334] [cursor=pointer]
+              - generic:
+                - generic: Enter booking id...
+            - generic:
+              - generic: search
+          - generic [ref=e336]:
+            - button "tune" [ref=e337] [cursor=pointer]:
+              - generic [ref=e339]: tune
+            - generic:
+              - generic: "2"
+        - generic [ref=e347]:
+          - generic [ref=e350] [cursor=pointer]: Upcoming
+          - generic [ref=e354] [cursor=pointer]: Previous
+          - generic [ref=e358] [cursor=pointer]: Drafts (0)
+        - generic [ref=e379]:
+          - generic [ref=e383] [cursor=pointer]: chevron_left
+          - generic [ref=e384] [cursor=pointer]: "1"
+          - generic [ref=e385] [cursor=pointer]: "2"
+          - generic [ref=e389]: chevron_right
+  - img [ref=e287]

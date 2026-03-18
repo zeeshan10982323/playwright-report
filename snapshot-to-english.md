@@ -1,0 +1,140 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - complementary [ref=e6]:
+        - generic [ref=e7]:
+          - img [ref=e8] [cursor=pointer]
+          - img "DigitalTolk" [ref=e11]
+          - generic [ref=e12]:
+            - menu [ref=e13]:
+              - menuitem "add_circle Create Booking" [ref=e14]:
+                - generic [ref=e15] [cursor=pointer]: add_circle
+                - generic [ref=e17] [cursor=pointer]: Create Booking
+              - menuitem "home Dashboard" [ref=e18]:
+                - generic [ref=e19] [cursor=pointer]: home
+                - generic [ref=e20] [cursor=pointer]: Dashboard
+              - menuitem "event My Bookings" [ref=e21]:
+                - generic [ref=e22] [cursor=pointer]: event
+                - generic [ref=e23] [cursor=pointer]: My Bookings
+              - menuitem "bar_chart Statistics" [ref=e24]:
+                - generic [ref=e25] [cursor=pointer]: bar_chart
+                - generic [ref=e26] [cursor=pointer]: Statistics
+            - menu [ref=e30]:
+              - menuitem "Settings" [ref=e31]:
+                - img [ref=e32] [cursor=pointer]
+                - text: Settings
+              - menuitem "Z ZASTESTCUSTOMER" [ref=e35]:
+                - generic [ref=e36] [cursor=pointer]:
+                  - generic [ref=e38]: Z
+                  - generic [ref=e39]: ZASTESTCUSTOMER
+      - main [ref=e40]:
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - generic [ref=e43]:
+              - img "Banner" [ref=e44]
+              - generic [ref=e46]:
+                - button "notifications" [ref=e47] [cursor=pointer]:
+                  - generic [ref=e49]: notifications
+                - generic [ref=e51]: "82"
+            - generic [ref=e55]:
+              - button "notifications" [ref=e56] [cursor=pointer]:
+                - generic [ref=e58]: notifications
+              - generic [ref=e60]: "82"
+          - generic [ref=e64]:
+            - generic [ref=e70]:
+              - generic [ref=e73] [cursor=pointer]:
+                - generic [ref=e74]: group
+                - generic [ref=e75]: Book Interpreter
+              - generic [ref=e79] [cursor=pointer]:
+                - generic [ref=e80]: directions_run
+                - generic [ref=e81]: On-demand Booking
+              - generic [ref=e85] [cursor=pointer]:
+                - generic [ref=e86]: translate
+                - generic [ref=e87]: Translation
+              - generic [ref=e91] [cursor=pointer]:
+                - generic [ref=e92]: question_answer
+                - generic [ref=e93]: Convey
+              - generic [ref=e97] [cursor=pointer]:
+                - generic [ref=e98]: book
+                - generic [ref=e99]: Phrases
+            - generic [ref=e105]:
+              - generic [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]:
+                    - generic [ref=e113]:
+                      - generic [ref=e114]: Type Of Service
+                      - generic [ref=e116] [cursor=pointer]: help
+                    - generic [ref=e117]: "*"
+                  - generic [ref=e123] [cursor=pointer]:
+                    - generic [ref=e125]:
+                      - generic [ref=e126]: Translation
+                      - button "close" [ref=e127]:
+                        - img [ref=e129]
+                    - img "loading" [ref=e133]:
+                      - generic [ref=e138]: keyboard_arrow_down
+                - generic [ref=e139]:
+                  - generic [ref=e141]:
+                    - generic [ref=e142]: Subject Area
+                    - generic [ref=e144] [cursor=pointer]: help
+                  - generic "General" [ref=e278] [cursor=pointer]:
+                    - textbox [ref=e151]
+                    - generic:
+                      - generic: General
+                    - img "loading" [ref=e152]:
+                      - generic [ref=e157]: keyboard_arrow_down
+                - generic [ref=e158]:
+                  - generic [ref=e159]:
+                    - generic [ref=e160]:
+                      - generic [ref=e161]: Text to translate
+                      - generic [ref=e163] [cursor=pointer]: help
+                    - generic [ref=e164]: "*"
+                  - generic [ref=e168]:
+                    - generic [ref=e171]:
+                      - textbox "Type or paste text here..." [ref=e172]: Dies ist ein Beispielabsatz auf Deutsch. Er enthält mehrere Sätze.
+                      - img "loading" [ref=e174]
+                    - generic [ref=e175]:
+                      - generic [ref=e178]: 10 Words
+                      - generic [ref=e180]: open_in_full
+                - generic [ref=e182]: AND / OR
+                - generic [ref=e190] [cursor=pointer]:
+                  - generic [ref=e191]: Upload or drag a file
+                  - generic [ref=e192]: (Document, image, video, audio)
+                - generic [ref=e194]:
+                  - generic [ref=e195]:
+                    - generic [ref=e196]:
+                      - generic [ref=e197]:
+                        - generic [ref=e198]: From
+                        - generic [ref=e200] [cursor=pointer]: help
+                      - generic [ref=e201]: "*"
+                    - generic "German" [ref=e294] [cursor=pointer]:
+                      - textbox [ref=e208]
+                      - generic:
+                        - generic: German
+                      - img "loading" [ref=e209]:
+                        - generic [ref=e214]: keyboard_arrow_down
+                  - generic [ref=e216]: east
+                  - generic [ref=e217]:
+                    - generic [ref=e218]:
+                      - generic [ref=e219]:
+                        - generic [ref=e220]: To
+                        - generic [ref=e222] [cursor=pointer]: help
+                      - generic [ref=e223]: "*"
+                    - generic [ref=e227]:
+                      - generic [ref=e229] [cursor=pointer]:
+                        - textbox [active] [ref=e296]: English
+                        - img "loading" [ref=e230]:
+                          - generic [ref=e235]: keyboard_arrow_down
+                      - generic [ref=e297]:
+                        - generic [ref=e298]:
+                          - generic [ref=e299]: Frequently used
+                          - generic [ref=e301] [cursor=pointer]: Ludhianiska
+                          - generic [ref=e303] [cursor=pointer]: German
+                          - generic [ref=e305] [cursor=pointer]: Amharic
+                        - generic [ref=e308]:
+                          - generic [ref=e309]: All languages
+                          - generic [ref=e329] [cursor=pointer]: English
+                          - generic [ref=e331] [cursor=pointer]: Pidgin English
+              - button "Next" [ref=e239] [cursor=pointer]:
+                - generic [ref=e240]: Next
+    - generic [ref=e244]: experiment
+  - img [ref=e252]
