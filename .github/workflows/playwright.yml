@@ -37,14 +37,9 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Playwright tests (generate HTML report)
-        run: npx playwright test tests/auth/login.spec.ts --workers=1 --retries=0
+        run: npx playwright test tests/ci/mm-pages-integration.spec.ts --workers=1 --retries=0
         env:
-          BASE_URL: ${{ secrets.BASE_URL }}
-          LOGIN_EMAIL: ${{ secrets.LOGIN_EMAIL }}
-          LOGIN_PASSWORD: ${{ secrets.LOGIN_PASSWORD }}
-          LOGIN_PATH: ${{ secrets.LOGIN_PATH }}
-          TRANSLATOR_EMAIL: ${{ secrets.TRANSLATOR_EMAIL }}
-          TRANSLATOR_PASSWORD: ${{ secrets.TRANSLATOR_PASSWORD }}
+          BASE_URL: https://example.com
           PW_WORKERS: "1"
           PW_RETRIES: "0"
 
