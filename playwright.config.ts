@@ -16,8 +16,8 @@ export default defineConfig({
   timeout: 120000,
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
-  retries: process.env.CI ? 2 : 0,
-  workers: process.env.CI ? 1 : undefined,
+  retries: process.env.PW_RETRIES ? Number(process.env.PW_RETRIES) : (process.env.CI ? 2 : 0),
+  workers: process.env.PW_WORKERS ? Number(process.env.PW_WORKERS) : (process.env.CI ? 1 : undefined),
   reporter: [
     ['list'],
     ['html', { open: 'never' }],
