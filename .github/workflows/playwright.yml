@@ -18,6 +18,7 @@ concurrency:
 jobs:
   test-and-publish:
     runs-on: ubuntu-latest
+    environment: github-pages
     timeout-minutes: 60
     steps:
       - name: Checkout
@@ -73,6 +74,6 @@ jobs:
         run: node scripts/mattermost-dm-test.js
         env:
           MM_URL: ${{ secrets.MM_URL }}
-          MM_BOT_TOKEN: ${{ secrets.MM_BOT_TOKEN }}
+          MM_BOT_TOKEN: ${{ secrets.MM_BOT_TOKEN || secrets.BOTTOKEN }}
           MM_DM_USERS: ${{ secrets.MM_DM_USERS }}
           MM_DM_MESSAGE: "[View Report](${{ steps.deployment.outputs.page_url }})"
