@@ -75,4 +75,4 @@ jobs:
           MM_URL: ${{ secrets.MM_URL }}
           MM_BOT_TOKEN: ${{ secrets.MM_BOT_TOKEN }}
           MM_DM_USERS: ${{ secrets.MM_DM_USERS }}
-          MM_DM_MESSAGE: "Playwright report: ${{ steps.deployment.outputs.page_url }}"
+          MM_DM_MESSAGE: "[View Report](${{ steps.deployment.outputs.page_url }})"

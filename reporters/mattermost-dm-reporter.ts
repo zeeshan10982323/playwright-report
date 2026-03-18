@@ -131,7 +131,10 @@ function formatSummary(params: {
   lines.push(`Playwright run finished`);
   if (params.project) lines.push(`Project: ${params.project}`);
   if (params.baseURL) lines.push(`Base URL: ${params.baseURL}`);
-  if (params.reportUrl) lines.push(`Report: ${params.reportUrl}`);
+  if (params.reportUrl) {
+    const url = params.reportUrl.trim();
+    lines.push(`Report: ${/^https?:\/\//i.test(url) ? `[View Report](${url})` : url}`);
+  }
   lines.push(`Total: ${params.total} | Passed: ${params.passed} | Failed: ${params.failed} | Flaky: ${params.flaky} | Skipped: ${params.skipped}`);
   lines.push(`Duration: ${Math.round(params.durationMs / 1000)}s`);
   if (params.firstFailures.length) {
